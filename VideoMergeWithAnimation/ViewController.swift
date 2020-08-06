@@ -18,7 +18,29 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func btnPlay1stVideoTapped(_ sender: Any) {
+        guard let url = Bundle.main.url(forResource: "movie1", withExtension: "mov") else { print("video1 not found"); return }
+        
+        let player = AVPlayer(url: url)
+        let playerVC = AVPlayerViewController()
+        playerVC.player = player
+        present(playerVC, animated: true) {
+            player.play()
+        }
+    }
+    
+    @IBAction func btnPlay2ndVideoTapped(_ sender: Any) {
+        guard let url = Bundle.main.url(forResource: "movie2", withExtension: "mov") else { print("video2 not found"); return }
+        
+        let player = AVPlayer(url: url)
+        let playerVC = AVPlayerViewController()
+        playerVC.player = player
+        present(playerVC, animated: true) {
+            player.play()
+        }
+    }
+    
     @IBAction func mergeBtnTapped(_ sender: Any) {
         let urlVideo1 = Bundle.main.url(forResource: "movie1", withExtension: "mov")
         let urlVideo2 = Bundle.main.url(forResource: "movie2", withExtension: "mov")
@@ -63,12 +85,11 @@ class ViewController: UIViewController {
     
     func openPreviewScreen(_ videoURL:URL) -> Void {
         let player = AVPlayer(url: videoURL)
-        let playerController = AVPlayerViewController()
-        playerController.player = player
-        
-        present(playerController, animated: true, completion: {
+        let playerVC = AVPlayerViewController()
+        playerVC.player = player
+        present(playerVC, animated: true) {
             player.play()
-        })
+        }
     }
 }
 

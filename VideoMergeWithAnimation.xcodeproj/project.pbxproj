@@ -13,10 +13,10 @@
 		F30C47F822D202F500DEC933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30C47F722D202F500DEC933 /* Assets.xcassets */; };
 		F30C47FB22D202F500DEC933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30C47F922D202F500DEC933 /* LaunchScreen.storyboard */; };
 		F30C480322D2043C00DEC933 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30C480222D2043C00DEC933 /* VideoManager.swift */; };
-		F30C481322D207D700DEC933 /* black.mov in Resources */ = {isa = PBXBuildFile; fileRef = F30C480F22D207D700DEC933 /* black.mov */; };
-		F30C481422D207D700DEC933 /* movie1.mov in Resources */ = {isa = PBXBuildFile; fileRef = F30C481022D207D700DEC933 /* movie1.mov */; };
-		F30C481522D207D700DEC933 /* movie2.mov in Resources */ = {isa = PBXBuildFile; fileRef = F30C481122D207D700DEC933 /* movie2.mov */; };
-		F30C481622D207D700DEC933 /* silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30C481222D207D700DEC933 /* silence.mp3 */; };
+		F3E681DB24DC3F880071FDDD /* silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3E681D824DC3F880071FDDD /* silence.mp3 */; };
+		F3E681DC24DC3F880071FDDD /* movie1.mov in Resources */ = {isa = PBXBuildFile; fileRef = F3E681D924DC3F880071FDDD /* movie1.mov */; };
+		F3E681DD24DC3F880071FDDD /* movie2.mov in Resources */ = {isa = PBXBuildFile; fileRef = F3E681DA24DC3F880071FDDD /* movie2.mov */; };
+		F3E681DF24DC41200071FDDD /* black.mov in Resources */ = {isa = PBXBuildFile; fileRef = F3E681DE24DC41200071FDDD /* black.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		F30C47FA22D202F500DEC933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F30C47FC22D202F500DEC933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F30C480222D2043C00DEC933 /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
-		F30C480F22D207D700DEC933 /* black.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = black.mov; path = "../../../../../../../Users/com/Downloads/MergeVideos-master/MergeVideos/Sample video/black.mov"; sourceTree = "<group>"; };
-		F30C481022D207D700DEC933 /* movie1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = movie1.mov; path = "../../../../../../../Users/com/Downloads/MergeVideos-master/MergeVideos/Sample video/movie1.mov"; sourceTree = "<group>"; };
-		F30C481122D207D700DEC933 /* movie2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = movie2.mov; path = "../../../../../../../Users/com/Downloads/MergeVideos-master/MergeVideos/Sample video/movie2.mov"; sourceTree = "<group>"; };
-		F30C481222D207D700DEC933 /* silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = silence.mp3; path = "../../../../../../../Users/com/Downloads/MergeVideos-master/MergeVideos/Sample video/silence.mp3"; sourceTree = "<group>"; };
+		F3E681D824DC3F880071FDDD /* silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence.mp3; sourceTree = "<group>"; };
+		F3E681D924DC3F880071FDDD /* movie1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movie1.mov; sourceTree = "<group>"; };
+		F3E681DA24DC3F880071FDDD /* movie2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movie2.mov; sourceTree = "<group>"; };
+		F3E681DE24DC41200071FDDD /* black.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = black.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +79,10 @@
 		F30C480622D2070300DEC933 /* SampleVideo */ = {
 			isa = PBXGroup;
 			children = (
-				F30C480F22D207D700DEC933 /* black.mov */,
-				F30C481022D207D700DEC933 /* movie1.mov */,
-				F30C481122D207D700DEC933 /* movie2.mov */,
-				F30C481222D207D700DEC933 /* silence.mp3 */,
+				F3E681DE24DC41200071FDDD /* black.mov */,
+				F3E681D924DC3F880071FDDD /* movie1.mov */,
+				F3E681DA24DC3F880071FDDD /* movie2.mov */,
+				F3E681D824DC3F880071FDDD /* silence.mp3 */,
 			);
 			path = SampleVideo;
 			sourceTree = "<group>";
@@ -145,12 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E681DB24DC3F880071FDDD /* silence.mp3 in Resources */,
+				F3E681DC24DC3F880071FDDD /* movie1.mov in Resources */,
+				F3E681DD24DC3F880071FDDD /* movie2.mov in Resources */,
+				F3E681DF24DC41200071FDDD /* black.mov in Resources */,
 				F30C47FB22D202F500DEC933 /* LaunchScreen.storyboard in Resources */,
-				F30C481422D207D700DEC933 /* movie1.mov in Resources */,
-				F30C481622D207D700DEC933 /* silence.mp3 in Resources */,
-				F30C481522D207D700DEC933 /* movie2.mov in Resources */,
 				F30C47F822D202F500DEC933 /* Assets.xcassets in Resources */,
-				F30C481322D207D700DEC933 /* black.mov in Resources */,
 				F30C47F622D202F100DEC933 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
